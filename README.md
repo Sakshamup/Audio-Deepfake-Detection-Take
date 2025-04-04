@@ -59,6 +59,6 @@
 ### Final Comparison Table
 | Model         | Feature Extraction | Architecture | Accuracy | 	Computational Cost | Best Use Case |
 | ------------- | ------------------ | ------------ | -------- | -------------------- | ------------ |
-| CRNN Model    | Mel Spectrograms   | CNN + BiLSTM | ~96%     | Moderate             | Balanced deepfake detection |
-| Squeezeformer | Raw Waveform/ Spectrograms       | Lightweight Transformer | ~97-98% | Moderate-High | Optimized real-time deepfake detection |
-| WaveNet       | Raw Waveforms      | Dilated CNNs + ResNet Blocks | ~98-99% | Very High	 | High-performance offline deepfake detection | 
+| CRNN Model    | Mel Spectrograms   | CNN + BiLSTM | ~89%     | Moderate             | Balanced deepfake detection |
+| Squeezeformer | Raw Waveform/ Spectrograms       | Lightweight Transformer | ~85% | Moderate-High | Optimized real-time deepfake detection |
+| WaveNet       | Raw Waveforms      | Dilated CNNs + ResNet Blocks | ~83.24 | Very High	 | High-performance offline deepfake detection | 
