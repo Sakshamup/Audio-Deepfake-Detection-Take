@@ -7,7 +7,25 @@ The dataset which I used to train the model is taken from kaggle.
 - The third one, named for-2sec is based on the second one, but with the files truncated at 2 seconds.
 - The last version, named for-rerec, is a rerecorded version of the for-2second dataset, to simulate a scenario where an attacker sends an utterance through a voice channel (i.e. a phone call or a voice message).
 
-  I chose this dataset because it contains variety of voices i.e., recorded and normal of upto 2 seconds.
+I chose this dataset because it contains variety of voices i.e., recorded and normal of upto 2 seconds.
+
+
+```plaintext
+project_folder/
+│___ for-original/
+│     ├── training/
+│         ├── real/ (contains .wav files)
+│         └── fake/
+│     ├── validation/
+│         ├── real/
+│         └── fake/
+│     └── testing/
+│          ├── real/
+│          └── fake/
+│___ for-rerecorded/ (same structure)
+└── app.py
+|__ evaluate_metrics.py
+```
 
   ## Steps to run the code
   ### Step 1: Setup Environment
