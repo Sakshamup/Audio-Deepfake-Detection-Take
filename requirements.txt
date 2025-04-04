@@ -1,1 +1,11 @@
+# Core Requirements
+torch
+torchaudio
+librosa
+numpy
+scikit-learn
+tqdm
 
+# Audio Processing (Optional but recommended)
+soundfile          # For MP3 support if needed
+pydub==0.25.1      # For MP3 support (requires ffmpeg)
