@@ -7,7 +7,7 @@
 - Fine-tuned on deepfake datasets for forgery detection
   
 🔹 Reported Performance Metrics
-- Achieves ~96% accuracy on deepfake audio datasets
+- Achieves ~83.24% accuracy on deepfake audio datasets
 - Lowers error rates by learning deep feature representations
 
 🔹 Why It's Promising
@@ -26,7 +26,7 @@
 - 3× faster than traditional speech models (e.g., Conformer)
 
 🔹 Reported Performance Metrics
-- 93–95% accuracy on speech deepfake datasets
+- ~85% accuracy on speech deepfake datasets
 - Runs real-time on edge devices
 
 🔹 Why It's Promising
@@ -44,7 +44,7 @@
 - CNN extracts spectral features, while RNN learns temporal dependencies
 
 🔹 Reported Performance Metrics
-- Achieves ~92–96% accuracy on deepfake datasets
+- Achieves ~89% accuracy on deepfake datasets
 - Low latency (~5–10ms inference per audio chunk)
 
 🔹 Why It's Promising
