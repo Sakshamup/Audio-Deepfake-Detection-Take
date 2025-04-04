@@ -54,7 +54,6 @@
 
 🔹 Potential Limitations
 - May struggle with long audio sequences
-- Lower accuracy than deep transformers like Wav2Vec2
 
 ### Final Comparison Table
 | Model         | Feature Extraction | Architecture | Accuracy | 	Computational Cost | Best Use Case |
